@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main(){
+   
     char estado;              // Estado: Uma letra de 'A' a 'H'
     char codigo[4];           // Código da Carta: A letra do estado seguida de um número de 01 a 04
     char nomeCidade[100];     // Nome da Cidade
@@ -8,7 +9,8 @@ int main(){
     float area;               // Área (em km²): A área da cidade em quilômetros quadrados
     float pib;                // PIB: O Produto Interno Bruto da cidade
     int pontosTuristicos;     // Número de Pontos Turísticos
-
+ 
+    printf("Desafio Super Trunfoo\n");
     printf("Insira os dados da Carta: 1\n");
     printf("Estado (A-H): ");
     scanf(" %c", &estado);
